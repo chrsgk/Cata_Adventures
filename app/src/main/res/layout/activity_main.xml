@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/free"/>
+
+    <EditText
+        android:id="@+id/editxt_username"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/image_viewer"
+        android:hint="Username"
+        android:textAlignment="center"
+        app:drawableStartCompat="@drawable/ic_baseline_person_24"/>
+
+    <EditText
+        android:id="@+id/editxt_email"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/editxt_username"
+        android:layout_marginTop="3dp"
+        android:hint="Email"
+        android:textAlignment="center"
+        app:drawableStartCompat="@drawable/ic_baseline_email_24"/>
+
+    <EditText
+        android:id="@+id/editxt_password"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/editxt_email"
+        android:layout_marginTop="3dp"
+        android:hint="Password"
+        android:textAlignment="center"
+        app:drawableStartCompat="@drawable/ic_baseline_vpn_key_24"/>
+
+    <Button
+        android:id="@+id/registry_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editxt_password"
+        android:backgroundTint="@color/dark_green2"
+        android:textSize="35sp"
+        android:clickable="true"
+        android:text="@string/register1"/>
+    <Button
+        android:id="@+id/login_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registry_Btn"
+        android:backgroundTint="@color/dark_green"
+        android:textSize="35sp"
+        android:clickable="true"
+        android:text="@string/access1"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+
+
+
+</RelativeLayout>

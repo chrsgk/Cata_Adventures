@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cata_Adventures</string>
+    <string name="intro">CATALUNYA City And Upcountry Adventures</string>
+    <string name="activity1">Boat Rides</string>
+    <string name="activity2">Kayaking</string>
+    <string name="activity3">Trekking</string>
+    <string name="activity4">Fishing</string>
+    <string name="activity5">Trails</string>
+    <string name="activity6">Adventure</string>
+    <string name="activity7">Swimming</string>
+    <string name="register1">Register</string>
+    <string name="access1">Login</string>
+    <string name="name">Full Name</string>
+    <string name="cat">Adventures in Catalunya</string>
+</resources>

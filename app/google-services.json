@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "361528042940",
+    "project_id": "adventures-c80a3",
+    "storage_bucket": "adventures-c80a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361528042940:android:085adf9fde937c1a94f7b9",
+        "android_client_info": {
+          "package_name": "com.example.adventure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361528042940-iifgh874u3j50v2qrt51csugtckdh5h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOi9Xc3rpFWTFPWMJ6QDvLW-IR_l3RwLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361528042940-iifgh874u3j50v2qrt51csugtckdh5h7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361528042940:android:e83ce3548747d1c194f7b9",
+        "android_client_info": {
+          "package_name": "com.example.cata_adventures"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361528042940-iifgh874u3j50v2qrt51csugtckdh5h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOi9Xc3rpFWTFPWMJ6QDvLW-IR_l3RwLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361528042940-iifgh874u3j50v2qrt51csugtckdh5h7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

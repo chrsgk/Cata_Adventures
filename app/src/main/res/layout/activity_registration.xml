@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <TextView
+        android:id="@+id/text_view1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/cat"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"/>
+
+    <EditText
+        android:id="@+id/edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/text_view1"
+        android:hint="@string/name"
+        android:layout_marginTop="6dp"
+        android:textAlignment="center"
+        app:drawableStartCompat="@drawable/ic_baseline_person_24"/>
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/edittext_name"
+        android:layout_marginTop="3dp"
+        android:hint="Username"
+        android:textAlignment="center"
+        app:drawableStartCompat="@drawable/ic_baseline_account_circle_24"/>
+
+    <EditText
+        android:id="@+id/edittext_email_registry"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/edittext_username"
+        android:layout_marginTop="3dp"
+        android:hint="Email"
+        android:textAlignment="center"
+        app:drawableStartCompat="@drawable/ic_baseline_email_24"/>
+
+    <EditText
+        android:id="@+id/edittext_password_registry"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/edittext_email_registry"
+        android:layout_marginTop="3dp"
+        android:hint="Password"
+        android:textAlignment="center"
+        app:drawableStartCompat="@drawable/ic_baseline_vpn_key_24"/>
+
+    <EditText
+        android:id="@+id/edittext_password_confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/edittext_password_registry"
+        android:layout_marginTop="3dp"
+        android:hint="Password Confirmation"
+        android:textAlignment="center"
+        app:drawableStartCompat="@drawable/ic_baseline_edit_attributes_24"/>
+
+    <Button
+        android:id="@+id/registry_Btn2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/edittext_password_confirmation"
+        android:backgroundTint="@color/dark_green"
+        android:clickable="true"
+        android:text="Register User"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/login_Btn2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@id/registry_Btn2"
+        android:backgroundTint="@color/dark_green"
+        android:clickable="true"
+        android:text="Login"
+        android:textSize="18sp"
+        android:layout_marginTop="3dp"/>
+    <ProgressBar
+        android:id="@+id/progress_bar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
